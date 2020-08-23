@@ -94,8 +94,8 @@ reg query "HKCU\Software\SimonTatham\PuTTY\Sessions"
 echo.
 
 echo --- AlwaysInstallElevated Check --- 
-reg query HKCU\SOFTWARE\Policies\Microsoft\Windows\Installer\AlwaysInstallElevated 
-reg query HKLM\SOFTWARE\Policies\Microsoft\Windows\Installer\AlwaysInstallElevated 
+reg query HKCU\SOFTWARE\Policies\Microsoft\Windows\Installer
+reg query HKLM\SOFTWARE\Policies\Microsoft\Windows\Installer
 echo. 
 
 echo --- Program Files and User Directories where everybody (or users) have full or modify permissions --- 
