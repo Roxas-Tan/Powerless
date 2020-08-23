@@ -165,6 +165,7 @@ echo  --- Accesschk services that we can change registry values for (such as Ima
 accesschk.exe -kvqwsu "Everyone" hklm\system\currentcontrolset\services /accepteula
 accesschk.exe -kvqwsu "Authenticated Users" hklm\system\currentcontrolset\services /accepteula
 accesschk.exe -kvqwsu "Users" hklm\system\currentcontrolset\services /accepteula
+accesschk.exe -kvqwsu "INTERACTIVE" hklm\system\currentcontrolset\services /accepteula
 echo.
 echo ---------------------------------------- End Search for Quick Wins --------------------------------------
 
